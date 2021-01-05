@@ -1,0 +1,127 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #000000;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+.title {
+    font-size:20px
+
+}
+
+.title2 {
+    font-size:20px
+
+}
+
+.smalltitle {
+    font-size:15px
+    
+}
+
+.smalltitle2 {
+    font-size:15px
+    
+}
+
+.smalltitle3 {
+    font-size:15px
+    
+}
+
+.smalltitle4 {
+    font-size:15px
+    
+}
+
+
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 90%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+  div.belarus {
+    content:url(Images/belarus.jpg);
+  }
+
+  div.rossia {
+    content:url(Images/rossia.jpg);
+  }
+
+  div.everything {
+    content:url(Images/everything.jpg);
+  }
+
+  div.flag {
+    content:url(Images/flag.jpg);
+  }
+
+  div.me {
+    content:url(Images/me.JPG);
+  }
+
+  div.insta {
+    content:url(Images/insta.jpg);
+    margin-left: 20px;
+  }
